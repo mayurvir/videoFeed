@@ -14,8 +14,6 @@
 @interface VideoCell : UITableViewCell
 
 
-@property (strong, nonatomic) AVPlayerItem* videoItem;
-
 @property (strong, nonatomic) AVPlayer* videoPlayer;
 
 @property (strong, nonatomic) AVPlayerLayer* avLayer;
